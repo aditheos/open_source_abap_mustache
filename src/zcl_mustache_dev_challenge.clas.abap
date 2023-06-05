@@ -88,7 +88,7 @@ CLASS ZCL_MUSTACHE_DEV_CHALLENGE IMPLEMENTATION.
     CLEAR gt_data.
     APPEND INITIAL LINE TO gt_data ASSIGNING FIELD-SYMBOL(<lfs_data>).
     <lfs_data>-name = 'challenge_descr'.
-    <lfs_data>-val = 'Open Sourrce ABAP!'.
+    <lfs_data>-val = 'Open Source ABAP!'.
 
     APPEND INITIAL LINE TO gt_data ASSIGNING <lfs_data>.
     <lfs_data>-name = 'challenges'.
